@@ -4,7 +4,6 @@
 
 | Feature                   | Tyrian                                     | Cobalt 110G                           |
 |---------------------------|--------------------------------------------|---------------------------------------|
-| Features                   | Many unnecessary features                  | More streamlined, relevant features   |
 | Altitude readings          | AGL (Above Ground Level)                   | MSL (Mean Sea Level)                  |
 | Speed                      | M/S (Meters per second)                    | Knots                                 |
 | Gauge cluster              | None                                       | Custom gauge cluster in Actions tab   |
@@ -15,10 +14,10 @@ Redesign the Mission Planner for Tyrian to visually replicate the custom layout 
 
 ## Todo
 1. [ ] In the Actions tab:
-    - [ ] Altitude tape: Change the Primary Flight Display to read in MSL instead of AGL.
+    - [x] Altitude tape: Change the Primary Flight Display to read in MSL instead of AGL.
     - [ ] Fly to Here: Update input from AGL to MSL.
     - [ ] Change Altitude: Modify the input on the Actions tab from AGL to MSL.
-    - [ ] Change Speed: Adjust the speed input on the Actions tab from M/S to Knots.
+    - [x] Change Speed: Adjust the speed input on the Actions tab from M/S to Knots.
     - [ ] Custom gauge cluster: Replicate the custom gauge cluster of the Cobalt 110G.
 2. [ ] In Mission Planning:
     - [ ] Change "Absolute" to MSL.
