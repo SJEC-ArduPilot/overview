@@ -19,11 +19,11 @@ Redesign the Mission Planner for Tyrian to visually replicate the custom layout 
     - [x] Change Altitude: Modify the input on the Actions tab from AGL to MSL.
     - [x] Change Speed: Adjust the speed input on the Actions tab from M/S to Knots.
     - [ ] Custom gauge cluster: Replicate the custom gauge cluster of the Cobalt 110G.
-2. [ ] In Mission Planning:
+2. [x] In Mission Planning:
     - [x] Change "Absolute" to MSL.
     - [x] In the frame option, change "Relative" to AGL.
     - [x] Set MSL as the default (no need to hide the default frame option).
-    - [ ] Elevation Profile: Integrate the elevation profile feature from older mission planners.
+    - [x] Elevation Profile: Integrate the elevation profile feature from older mission planners.
 3. [ ] Custom gauge colors:
     - [ ] Allow custom gauges to change colors based on received readings.
 4. [ ] Additional tasks:
