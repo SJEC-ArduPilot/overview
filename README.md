@@ -13,19 +13,20 @@
 Redesign the Mission Planner for Tyrian to visually replicate the custom layout of the Cobalt 110G.
 
 ## Todo
-1. [ ] In the Actions tab:
+1. [x] In the Actions tab:
     - [x] Altitude tape: Change the Primary Flight Display to read in MSL instead of AGL.
     - [x] Fly to Here: Update input from AGL to MSL.
     - [x] Change Altitude: Modify the input on the Actions tab from AGL to MSL.
     - [x] Change Speed: Adjust the speed input on the Actions tab from M/S to Knots.
-    - [ ] Custom gauge cluster: Replicate the custom gauge cluster of the Cobalt 110G.
+    - [x] Custom gauge cluster: Replicate the custom gauge cluster of the Cobalt 110G.
 2. [x] In Mission Planning:
     - [x] Change "Absolute" to MSL.
     - [x] In the frame option, change "Relative" to AGL.
     - [x] Set MSL as the default (no need to hide the default frame option).
     - [x] Elevation Profile: Integrate the elevation profile feature from older mission planners.
-3. [ ] Custom gauge colors:
-    - [ ] Allow custom gauges to change colors based on received readings.
+    - [x] Make DO_CHANGE_SPEED command follow user's configured speed unit. 
+3. [x] Custom gauge colors:
+    - [x] Allow custom gauges to change colors based on received readings.
 4. [ ] Additional tasks:
     - [ ] Remove unnecessary features to declutter the interface.
     - [ ] Fix layout issues (e.g., change speed, change altitude, set loiter radius).
