@@ -1,5 +1,7 @@
 # Project Overview
 
+**Repository:** [SJEC-ArduPilot/MissionPlanner](https://github.com/SJEC-ArduPilot/MissionPlanner)
+
 ## Tyrian vs. Cobalt 110G Comparison
 
 | Feature                   | Tyrian                                     | Cobalt 110G                           |
@@ -27,6 +29,6 @@ Redesign the Mission Planner for Tyrian to visually replicate the custom layout 
     - [x] Make DO_CHANGE_SPEED command follow user's configured speed unit. 
 3. [x] Custom gauge colors:
     - [x] Allow custom gauges to change colors based on received readings.
-4. [ ] Additional tasks:
-    - [ ] Remove unnecessary features to declutter the interface.
-    - [ ] Fix layout issues (e.g., change speed, change altitude, set loiter radius).
+4. [x] Additional tasks:
+    - [x] Remove unnecessary features to declutter the interface.
+    - [x] Fix layout issues (e.g., change speed, change altitude, set loiter radius).
